@@ -2,12 +2,16 @@
 
 Get a daily inspirational quote sent to your email using GitHub Actions and Gmail!
 
+<img src="https://github.com/user-attachments/assets/d4c2648a-4bd8-49bf-a574-73dc3873d858" alt="GridArt_20250615_172314596" width="300" height="300">
+
+
+
 ## 🚀 How to Use This Template
 
 
 1. **Create your Copy**
    
- - Click the green “Use this template” button above to generate your repository from this template.
+ - Click the blue or green “Use this template” button above to generate your repository from this template.
   
  - Alternatively, you can fork the repo using GitHub’s Fork button.
 
