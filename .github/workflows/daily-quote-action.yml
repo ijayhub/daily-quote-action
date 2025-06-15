@@ -1,9 +1,10 @@
 name: Daily Inspirational Quote
 
 on:
+  workflow_call:    # This allows others to call this workflow from their repo
   schedule:
-    - cron: '0 8 * * *'   # Runs every day at 8:00 AM UTC (change this time if you want)
-  workflow_dispatch:       # Allows you to run the workflow manually from the Actions tab
+    - cron: '0 8 * * *'
+  workflow_dispatch:
 
 jobs:
   send-quote:
