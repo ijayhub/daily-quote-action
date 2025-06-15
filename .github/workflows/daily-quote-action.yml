@@ -33,5 +33,5 @@ jobs:
             "${{ env.QUOTE }}"
             — ${{ env.AUTHOR }}
 
-            Sent automatically by your GitHub Action 🚀
+            Sent automatically by GitHub Action. Built with 💖 by Ijay.
           secure: true
