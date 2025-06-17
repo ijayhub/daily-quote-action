@@ -44,13 +44,15 @@ flowchart TD
 
 ---
 
-<h3 align="center"><strong>👉 For a detailed breakdown of this project, check out the Wiki at the top of the repository.</strong></h3>
+<div align="center">
+    <strong>👉 For a detailed breakdown of this project, check out the Wiki at the top of the repository.</strong>
 
 <p align="center">
   <a href="https://github.com/ijayhub/daily-quote-action/wiki" target="_blank">
     <img src="https://img.shields.io/badge/View-Wiki-blue?style=for-the-badge&logo=github" alt="View Wiki">
   </a>
 </p>
+</div>
 
 ---
 
