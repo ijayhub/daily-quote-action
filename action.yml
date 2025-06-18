@@ -1,0 +1,17 @@
+name: 'Daily Inspirational Quote'
+description: 'Posts a daily inspirational quote to your workflow or platform.'
+author: 'ijay'
+inputs:
+  recipient:
+    description: 'Where to post the quote (e.g., email)'
+    required: false
+    default: 'GitHub Actions log'
+outputs:
+  quote:
+    description: 'The inspirational quote that was posted'
+runs:
+  using: 'node20'
+  main: 'index.js'
+branding:
+  icon: 'light-bulb'
+  color: 'yellow'
