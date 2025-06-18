@@ -45,7 +45,7 @@ flowchart TD
 ---
 
 <div align="center">
-    <h3><strong>👉 For a detailed breakdown of this project, check out the Wiki at the top of the repository.</strong><.h3>
+    <h3><strong>👉 For a detailed breakdown of this project, check out the Wiki at the top of the repository.</strong></h3>
 
 <p align="center">
   <a href="https://github.com/ijayhub/daily-quote-action/wiki" target="_blank">
