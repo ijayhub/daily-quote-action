@@ -31,9 +31,9 @@ flowchart TD
  - Go to your new repo’s **Settings > Secrets and variables > Actions**.
      
  - Add the following secrets:
-     - `EMAIL_USERNAME`: your Gmail address (e.g. youremail@gmail.com)
-     - `EMAIL_PASSWORD`: your Gmail App Password ([how to create one](https://support.google.com/accounts/answer/185833?hl=en))
-     - `TO_EMAIL`: the email address to receive the quotes
+     - `EMAIL_USERNAME`: your Email address (e.g. youremail@gmail.com)
+     - `EMAIL_PASSWORD`: your Email App Password ([how to create one](https://support.google.com/accounts/answer/185833?hl=en))
+     - `TO_EMAIL`: the Email address to receive the quotes
 
 4. **(Optional) Change the Schedule:**
  - Edit `.github/workflows/daily-quote-action.yml` to change when the email is sent.
@@ -45,7 +45,7 @@ flowchart TD
 ---
 
 <div align="center">
-    <strong>👉 For a detailed breakdown of this project, check out the Wiki at the top of the repository.</strong>
+    <h3><strong>👉 For a detailed breakdown of this project, check out the Wiki at the top of the repository.</strong><.h3>
 
 <p align="center">
   <a href="https://github.com/ijayhub/daily-quote-action/wiki" target="_blank">
@@ -56,6 +56,6 @@ flowchart TD
 
 ---
 
-> Each user must use their own Gmail/App Password in their repo secrets.
+> Each user must use their own Email and App Password in their repo secrets.
 
  ⚠️ **Warning: Never share your App Password or email credentials.**
