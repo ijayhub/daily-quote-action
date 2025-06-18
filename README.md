@@ -1,6 +1,6 @@
 # Daily Inspirational Quote Action
 
-Get a daily inspirational quote sent to your email using GitHub Actions and Gmail!
+Get a daily inspirational quote sent to your email using GitHub Actions!
 
 <img src="https://github.com/user-attachments/assets/d4c2648a-4bd8-49bf-a574-73dc3873d858" alt="GridArt_20250615_172314596" width="300" height="300">
 
