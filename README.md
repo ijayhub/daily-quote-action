@@ -71,6 +71,8 @@ with:
 - Or fork this repository.
 
 ---
+ALternative to get stated quickly use: [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/ijayhub/daily-quote-action)
+
 
 > **Note:**  
 > You must use your own email and app password in your repository secrets.  
