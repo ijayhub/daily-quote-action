@@ -1,18 +1,22 @@
 name: Daily Inspirational Quote
 
 on:
-  workflow_call:    # This allows others to call this workflow from their repo
+  workflow_call:
   schedule:
-    - cron: '0 7 * * *'    
+    - cron: '0 7 * * *'
   workflow_dispatch:
 
 jobs:
   send-quote:
     runs-on: ubuntu-latest
     steps:
+      - name: Ensure jq is installed
+        run: sudo apt-get install -y jq
+
       - name: Fetch inspirational quote
         id: get_quote
         run: |
+          set -e
           response=$(curl -s https://zenquotes.io/api/random)
           quote=$(echo "$response" | jq -r '.[0].q')
           author=$(echo "$response" | jq -r '.[0].a')
@@ -30,7 +34,7 @@ jobs:
           to: ${{ secrets.TO_EMAIL }}
           from: ${{ secrets.EMAIL_USERNAME }}
           body: |
-            "${{ env.QUOTE }}"
+            ${{ env.QUOTE }}
             — ${{ env.AUTHOR }}
 
             Sent automatically by GitHub Action. Built with 💖 by Ijay.
