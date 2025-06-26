@@ -73,7 +73,9 @@ with:
 - Or fork this repository.
 
 ---
-ALternative to get stated quickly use: [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/ijayhub/daily-quote-action)
+Alternative to get started quickly use:
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/ijayhub/daily-quote-action)
 
 
 > **Note:**  
