@@ -3,7 +3,9 @@
 Start each day inspired!  
 **Daily Inspirational Quote Action** sends a fresh, motivational quote right to your email using GitHub Actions.
 
-<img src="https://github.com/user-attachments/assets/d4c2648a-4bd8-49bf-a574-73dc3873d858" alt="GridArt_20250615_172314596" width="300" height="300">
+<img src="https://github.com/user-attachments/assets/48929d81-d282-41f4-91c0-c9323151c9e9" alt="GridArt_20250615_172314596" width="300" height="300">
+
+
 
 ---
 
