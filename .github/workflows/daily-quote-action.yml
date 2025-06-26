@@ -3,7 +3,7 @@ name: Daily Inspirational Quote
 on:
   workflow_call:    # This allows others to call this workflow from their repo
   schedule:
-    - cron: '0 8 * * *'
+    - cron: '0 7 * * *'    
   workflow_dispatch:
 
 jobs:
